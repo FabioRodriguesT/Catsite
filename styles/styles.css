@@ -1,0 +1,52 @@
+html {
+  font-size: 10px; /* tamanho da fonte */
+  font-family: 'Roboto Slab', serif;
+  background-color: #660066;
+  color: white;
+}
+
+body {
+  width: 600px;
+  margin: 0px auto;
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px; /* up right down left*/
+
+  border: 5px solid black;
+}
+
+h1{
+  margin: 0;
+  padding: 20px 0;
+  color: #660066;
+  text-shadow: 3px 3px 1px black;
+  font-size: 60px;
+  text-align: center;}
+
+p, li{
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+
+}
+
+img {
+  display: block;
+  padding: 0px;
+  border: solid 5px;
+  margin: 0 auto; 
+
+  /*Finalmente, centralizaremos a imagem para 
+  melhorar a aparência. Nós poderiamos usar 
+  novamente o truque margin: 0 auto que 
+  aprendemos anteriormente para o corpo, 
+  mas também precisamos fazer outra coisa. 
+  O elemento <body> é em nível de bloco, 
+  o que significa que ocupa espaço na página 
+  e pode ter margens e outros valores de 
+  espaçamento aplicados a ele. Imagens, 
+  por outro lado, são elementos em linha, 
+  o que significa que não podem ter margens. 
+  Então, para aplicar margens a uma imagem, 
+  temos que dar o comportamento de nível 
+  de bloco a imagem usando display: block;.*/
+}
